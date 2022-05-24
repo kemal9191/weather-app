@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+* {
+  font-weight: 700;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  width: 75px;
+  height: 75px
+}
+
+.active {
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 120px;
+  width: 90px;
+}
+
+.passive {
+  padding: 10px;
+  display: inline-block;
+  height: 100px;
+  width: 80px;
+}
+
+.muted {
+  color: grey
+}
+
+.form button {
+  margin: 10px;
+  padding: 10px;
+
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  width: 770px;
+  height: 80px;
+  padding-right: 10px;
+}
+
+.form select {
+  margin: 10px;
+  padding: 10px;
+
+}
